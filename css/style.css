@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Rock';
+    src: url('../css/font/ROCK.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* Android jQM Font Style Overrides */
+  body * {
+   /* font-family: "Rock" !important;*/
+    font-weight: normal !important;
+  }
+
+.center-imagem {
+
+}
+
+.barImage img{
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #FFF;
+  max-width: 100% !important;
+}
+
+.ui-listview img{
+	border-radius: 10px;
+}
+
+
+.ui-icon-map {
+    background: url(css/images/place.png) 50% 50% no-repeat;
+    background-size: 30px 30px;
+    background-color: black;
+}
+
+.barName {
+	font-size: 24px;
+}
+
+
+.lista-img {
+  float: left;
+  display: block;
+  list-style: none;
+  margin: 10px;
+}
+
+.lista-img img {
+  /*width: 75px !important;*/
+  max-width: 100% !important;
+  height: auto !important;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  float:left;
+  position: relative;
+  left: -10px;
+}
+
+.my-grid .ui-block-a {
+	width: 33% !important;
+}
+
+
+.my-grid .ui-block-b {
+	width: 53% !important;
+  float: right;
+}
+
+
+.ui-body-c,.ui-dialog.ui-overlay-c{
+    text-shadow: 0pt 0px 0pt rgb(0, 0, 0); 
+}
+.ui-body-c, .ui-body-c input, .ui-body-c select, .ui-body-c textarea, .ui-body-c button{
+        font-family: Helvetica, Arial, sans-serif, Verdana;
+        font-size: 12px;
+        text-shadow: none;
+        color:black;
+}
+
+#gmaps{
+  max-width: 100%;
+  float: right;
+}
+
+.barBairro {
+  font-size: 21px;
+  color: #9CA0AF;
+  text-shadow: 0px 1px 0px #1D1D1D;
+}
+
+/* Botões dos bares */
+.wbbotao {
+  border-radius: 5px;
+}
+
+/* Para a agenda */
+.tituloagenda, .titulofotos, .titulosobre, .tituloservicos, .collapsible h3 a {
+  text-align: center !important;
+}
+
+/* Imagens responsivas */
+.collapsible img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photos ul li img {
+  width: 20%;
+}
+
+.icone{
+  float: right;
+  color: #C4D73E;
+}
+
+.estrela-*{
+  color: gold;
+}
