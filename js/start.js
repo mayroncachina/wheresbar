@@ -219,13 +219,17 @@ function getFotosByBar(id_bar){
 }
 
 function setLinkLoja(id){
-  votacao(0);
+  //votacao(0);
  localStorage.setItem('linkLoja', id);
  console.log(localStorage.getItem('linkLoja'));
  getBar(id);
  $.mobile.changePage( "#bar", { transition: "slide"});
 }
 
+function fecharGaleria(){
+  $("#glisse-wrapper").css("display","none");
+}
+/*
 function votacao(id){
   switch (id){
     case 0:
@@ -271,4 +275,4 @@ function votacao(id){
       $("#estrela-5").css("color","gold");
     break;
   }
-}
+}*/
