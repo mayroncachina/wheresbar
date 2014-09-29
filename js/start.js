@@ -69,7 +69,7 @@ function formattedDate(date) {
 
 function reloadList(){
 
-var url = "http://wheresbar.com.br:8080/webservices/bares/";
+var url = "http://107.170.191.250:8080/webservices/bares/";
 console.log(url)
   $.ajax({
       url: url,
@@ -85,7 +85,7 @@ console.log(url)
 
           linha += '<li>';
           linha += '  <a href="#" onclick="setLinkLoja('+data[i][4]+')">';
-          linha += '    <img src="http://wheresbar.com.br:8080/static/'+data[i][0]+'" width="70" style="left: 8px;top: 4px;">';
+          linha += '    <img src="http://107.170.191.250:8080/static/'+data[i][0]+'" width="70" style="left: 8px;top: 4px;">';
           linha += '    <h2>'+data[i][1]+'</h2>';
           linha += '    <p>'+data[i][2]+'</p></a>';
           linha += '    <span class="ui-li-count">'+data[i][3]+'</span>';
@@ -106,7 +106,7 @@ $(document).on('pageinit', '#home', function(){
 
 function getBar(id){
   $.mobile.loading('show')
-  var url = "http://www.wheresbar.com.br:8080/webservices/bar/"+id;
+  var url = "http://107.170.191.250:8080/webservices/bar/"+id;
   $.ajax({
       url: url,
       dataType: "json",
@@ -120,7 +120,7 @@ function getBar(id){
           console.log(data[0].fields.imagem)
           $(".barName").html(data[0].fields.nome)
           $(".barBairro").html(data[0].fields.bairro)
-          $(".barImage").html("<img src='http://wheresbar.com.br:8080/static/"+data[0].fields.imagem+"' width='100' />");
+          $(".barImage").html("<img src='http://107.170.191.250:8080/static/"+data[0].fields.imagem+"' width='100' />");
 
           $(".barDescricao").html(data[0].fields.descricao)
 
@@ -142,7 +142,7 @@ function getFotosByBar(id_bar){
   
   $.mobile.loading('show')
   $.mobile.changePage( "#tela-bar", { transition: "slide"});
-  var url = "http://www.wheresbar.com.br:8080/webservices/fotos/"+id_bar;
+  var url = "http://107.170.191.250:8080/webservices/fotos/"+id_bar;
   $.ajax({
       url: url,
       dataType: "json",
@@ -153,7 +153,7 @@ function getFotosByBar(id_bar){
       },
       success: function (data) {
 
-          var url = "http://www.wheresbar.com.br:8080/webservices/fotos/"+id_bar;
+          var url = "http://107.170.191.250:8080/webservices/fotos/"+id_bar;
           console.log(url)
           $.ajax({
             url: url,
@@ -167,7 +167,7 @@ function getFotosByBar(id_bar){
               var fotos = "<div class='ui-grid-c'>";
               for (var i = 0; i < data.length; i++) {
                 //console.log(data[i].fields)
-                //fotos += "<li><img src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></li>";
+                //fotos += "<li><img src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'/></li>";
                 if(i>7){
                   break;
                 }
