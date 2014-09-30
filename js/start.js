@@ -174,28 +174,28 @@ function getFotosByBar(id_bar){
                 switch (i){
                     case 0:
                     //<a href='#popupPhotoLandscape' data-rel='popup' data-position-to='window' class='ui-btn ui-corner-all ui-shadow ui-btn-inline'>Photo landscape</a>
-                      fotos += "<div class='ui-block-a'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-a'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                     break;
                     case 1:
-                      fotos += "<div class='ui-block-b'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-b'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                     case 2:
-                      fotos += "<div class='ui-block-c'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-c'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                     case 3:
-                      fotos += "<div class='ui-block-d'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-d'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                     case 4:
-                      fotos += "<div class='ui-block-a'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-a'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                     case 5:
-                      fotos += "<div class='ui-block-b'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-b'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                       case 6:
-                      fotos += "<div class='ui-block-c'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-c'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                     case 7:
-                      fotos += "<div class='ui-block-d'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
+                      fotos += "<div class='ui-block-d'><div class='ui-bar ui-bar-a content-img' ><img class = 'foto-bar myphotos' rel='group1' src='http://107.170.191.250:8080/static/"+data[i].fields.imagem+"'  data-glisse-big='http://www.wheresbar.com.br:8080/static/"+data[i].fields.imagem+"'/></div></div>";
                       break;
                 }
               };
